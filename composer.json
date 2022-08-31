@@ -1,0 +1,14 @@
+{
+  "name": "vendor_name/SITE READ",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "shama",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  }
+}
