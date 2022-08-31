@@ -1,0 +1,201 @@
+body html {
+    scroll-behavior: smooth;
+    height: 100%;
+    border-collapse: separate;
+}
+
+/* NAVIGATION BAR----------------------------- */
+ul {
+  z-index: 1;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    top: 0.5px;
+    left: 0.2px;
+    position: fixed;
+    list-style-type: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+    background: linear-gradient(304deg, rgba(126, 250, 24, 0.692) 0.5%, rgba(65, 136, 18, 0.753) 80%, rgba(243, 224, 54, 0.788) 100%);
+    display: block;
+  }
+  
+  .navigation {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  .navigation:last-child {
+    float: right;
+    border-right: none;
+    border-left: 1px solid #bbb;
+  }
+  
+  .navigation a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navigation a:hover:not(.active) {
+    background-color: rgba(17, 17, 17, 0.39);
+  }
+
+/*DROPDOWN BUTTON------------------------------------------*/ 
+
+li {
+    float: left;
+  }
+  
+li a, .dropbtn {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #7dff6285;
+  }
+  
+li.dropdown {
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(4, 177, 56, 0.61);
+    min-width: 160px;
+    box-shadow: 8px 11px 14px  #fffb04b9;
+    -webkit-box-shadow: 8px 11px 14px  #eeff00b7;
+    z-index: 1;
+    
+  }
+  
+.dropdown-content a {
+    color: rgb(255, 253, 253);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS',serif;
+    font-size: 20px;
+    text-shadow: 3px 2px 3px #050500d8, 3px 2px 4px #fffb04;
+    
+  }
+
+.dropdown-content a:hover {
+    background-color: rgba(17, 17, 17, 0.39);}
+            
+.dropdown:hover .dropdown-content {
+     display: block;
+    }
+
+/*--- SCROLLBAR -----------------------------------------------*/
+
+/* width */
+     ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+/* Track */
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 2px 5px rgb(30, 255, 0); 
+        border-radius: 10px;
+      }
+       
+/* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: rgba(21, 255, 0, 0.562); 
+        border-radius: 10px;
+      }
+      
+/* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #bdff06; 
+      }
+
+/*---------------BACKGROUND------------------------*/
+
+body {
+    height: 100%;
+    background-image: url("../IMG/waterfallgreen.jpg");
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+/*------------BANNER---------------------------------*/
+h1 {
+    padding: 40px 20px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", serif;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    letter-spacing: .15em;  
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 0px 2px #016411, 3px 2px 2px #0d9601, 6px 4px 4px #197e00, 4px 3px 6px #eeff00d8, 6px 4px 8px #fffb04;
+    
+}
+
+#banner {
+    border-collapse: separate;
+    display: block;
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.295);
+    box-shadow: 5px 5px 5px rgb(2, 136, 9);
+}
+
+/*-----------------TEXT --------------------------------*/
+h2{
+    font-size: 32px;
+    text-align: center;
+    display: block;
+    letter-spacing: 1px;
+}
+/*-----FIRST MISCONCEPTION-----------*/
+.first {
+    background-color: rgba(187, 187, 187, 0.842);
+    outline: outset 2px rgba(0, 128, 0, 0.87) ;
+}
+
+.khawarij {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.narration {
+    display: block;
+    background-color: #69fc4c8c;
+    outline: outset 3px rgb(68, 68, 255);
+    padding: 3px;
+}
+
+
+
+
+
+/*----------LINKS------------------------*/
+.hadith {
+    margin-right: 40px;
+    color: blue;
+    
+}
+
+
+
+/*-----------------------------------FOOOTER---------------------------------------*/
+.footer {
+    position: relative;
+    top: 20px;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    background-color: #ece6e623;
+    text-align: center;
+    text-shadow: 1px 0px 1px #d2ff07, 2px 1px 1px #bdff07e1, 3px 2px 2px #a8ff07de, 4px 3px 6px #a0ff07c2, 4px 3px 6px #07ffc19c;
+  } 
